@@ -42,3 +42,9 @@ disablePathToLower = true
   section = ["HTML"]
   taxonomy = ["HTML"]
   term = ["HTML", "ATOM"]
+
+[params]
+  twitterCardEnabled = true
+  # twitterCardSite = 
+  twitterCardDomain = "https://blog.penguincabinet.com/"
+  twitterCardAuthor = "PenguinCabinet"
