@@ -1,1 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-02-13T09:43:05+00:00</updated><id>https://blog.penguincabinet.com/</id></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-02-13T09:54:46+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>高性能なプランでのVPSの比較</title><link href="https://blog.penguincabinet.com/posts/VPS-compere/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/VPS-compere/</id><published>2022-02-13T17:14:49+09:00</published><updated>2022-02-13T17:14:49+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>格安VPSサービスと調べると&lt;a
+class="gblog-markdown__link"
+href="https://www.vultr.com/"
+>Vultr&lt;/a>や&lt;a
+class="gblog-markdown__link"
+href="https://web.arena.ne.jp/"
+>WebARENA&lt;/a>などがよく紹介されますが、とにかくコア数が欲しい場合の高性能なプラン(16コアくらい)だとそこまでコスパ良くないのでは?と思い、調べてみました。&lt;br>
+勘違いや変更があるかもしれないので、実際に使う場合は公式サイトを確認してください。&lt;br>
+とにかくコア数が欲しい場合のみに注目しているので、RAM、ネットワーク通信料などはできる限り最小にしているのと、サービスによって同じコア数でも性能が異なる場合があるのでご注意ください。&lt;br>
+ドル建ての場合は1ドル=115円で計算。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="16コアの場合">
+16コアの場合
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#16コアの場合" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 16コアの場合" href="#16%e3%82%b3%e3%82%a2%e3%81%ae%e5%a0%b4%e5%90%88">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>サービス名&lt;/th>
+&lt;th>月料金&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Vultr&lt;/td>
+&lt;td>36800円(320ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AWS(RAM、SSDでストレージ量はVultrと同じ)&lt;/td>
+&lt;td>47150円(410ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AWS(RAM、HDDでストレージ量はVultrと同じ)&lt;/td>
+&lt;td>38985円(339ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AWS(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>21620円(188ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Linode&lt;/td>
+&lt;td>27600円(240ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Azure(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>73025円(635ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GCP(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>44965円(391ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IBM Cloud(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>43700円(380ドル)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="まとめ">
+まとめ
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#まとめ" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor まとめ" href="#%e3%81%be%e3%81%a8%e3%82%81">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>AWSのHDD30GBのストレージにして、やるのが一番コスパがいいようですね。&lt;br>
+ただし、ネットワークは別料金ですので、使う方は注意が必要です。&lt;br>
+低価格帯だとそんなにコスパが悪くないVultrですけど、とにかくコア数が欲しいみたいなプランだとそんなにコスパよくない&amp;hellip;&lt;br>
+Linodeが地味にコスパすごいです。ネットワークやディスクこみこみでこれなので。&lt;/p></content></entry></feed>
