@@ -11,13 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          #fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true  
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.80.0'
+
+      - name: Build theme
+        run: npm install&&npm run build
+        working-directory: ./themes/hugo-geekblog
 
       - name: Build
         run: hugo --minify
