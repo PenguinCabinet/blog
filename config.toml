@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://blog.penguincabinet.com/"
 title = "愛を感じるペンギン内閣"
 theme = "hugo-geekblog"
 
