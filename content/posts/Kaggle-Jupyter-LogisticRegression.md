@@ -1,5 +1,5 @@
 ---
-title: "Kaggle Jupyter LogisticRegression"
+title: "KaggleのJupyter NotebookでLogisticRegressionをすると吐くエラーの対策"
 date: 2022-02-14T21:15:34+09:00
 draft: false
 ---
