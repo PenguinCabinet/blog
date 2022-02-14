@@ -8,6 +8,8 @@ pluralizeListTitles = false
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
+hasCJKLanguage = true
+summaryLength = 140
 
 # Needed for mermaid shortcodes
 [markup]
