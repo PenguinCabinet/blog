@@ -48,3 +48,4 @@ disablePathToLower = true
   # twitterCardSite = 
   twitterCardDomain = "https://blog.penguincabinet.com/"
   twitterCardAuthor = "PenguinCabinet"
+  images=["favicon/favicon.png"]
