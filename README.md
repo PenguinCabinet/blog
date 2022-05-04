@@ -2,5 +2,5 @@
 # dev
 ## 記事の作成
 ```bash
-hugo new post/hello.md
+hugo new posts/hello.md
 ```
