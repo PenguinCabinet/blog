@@ -2,6 +2,7 @@
 title: "GAFAMやその他企業の独自プロセッサやSoCのまとめ"
 date: 2022-03-07T01:12:25+09:00
 draft: false
+categories: ["programming","cpu"]
 ---
 
 

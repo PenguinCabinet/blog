@@ -2,6 +2,7 @@
 title: "高性能なプランでのVPSの比較"
 date: 2022-02-13T17:14:49+09:00
 draft: false
+categories: ["programming","インフラ"]
 ---
 
 # はじめに

@@ -2,6 +2,7 @@
 title: "Fyneのドラッグアンドドロップ実装進捗のまとめ"
 date: 2022-02-14T22:41:52+09:00
 draft: false
+categories: ["programming","golang"]
 ---
 
 # はじめに
