@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-05-04T05:54:50+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>GAFAMやその他企業の独自プロセッサやSoCのまとめ</title><link href="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/</id><published>2022-03-07T01:12:25+09:00</published><updated>2022-03-07T01:12:25+09:00</updated><content type="html">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-05-06T09:18:26+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>個人的におすすめのブラウザアドオン・拡張機能!!</title><link href="https://blog.penguincabinet.com/posts/awesome-browser-extensions/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/awesome-browser-extensions/</id><published>2022-05-04T14:54:51+09:00</published><updated>2022-05-04T14:54:51+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>個人的におすすめのブラウザアドオン・拡張機能を紹介します。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="ほんぺん">
+ほんぺん
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#ほんぺん" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor ほんぺん" href="#%e3%81%bb%e3%82%93%e3%81%ba%e3%82%93">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="personal-blocklistゴシップサイトブロッカー">
+Personal Blocklist・ゴシップサイトブロッカー
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#personal-blocklistゴシップサイトブロッカー" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Personal Blocklist・ゴシップサイトブロッカー" href="#personal-blocklist%e3%82%b4%e3%82%b7%e3%83%83%e3%83%97%e3%82%b5%e3%82%a4%e3%83%88%e3%83%96%e3%83%ad%e3%83%83%e3%82%ab%e3%83%bc">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>Personal Blocklist、ゴシップサイトブロッカーはともに、&lt;br>
+特定のサイトを検索エンジンからブロックすることができるアドオンです。&lt;br>
+最近のGoogle検索はノイズが多く、SEO対策マシマシで情報量ゼロのサイトが上位に出たりします。&lt;br>
+そういったサイトをワンクリックでブロックすることができ、検索結果から排除することができます。&lt;br>
+&lt;br>
+Personal Blocklistが元々先にあったのですが、開発が停滞し、有志の方がゴシップサイトブロッカーという別のアドオンを作ったようです。&lt;br>
+Personal BlocklistはChromeだと普通に動きましたが、Firefoxだとゴシップサイトブロッカーのほうが使いやすかったです。&lt;/p>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://chrome.google.com/webstore/detail/personal-blocklistnot-by/cbbbhelcpfjhdcncigdlkabmjbgokmpg"
+>Personal Blocklist on Chrome&lt;/a>&lt;br>
+&lt;a
+class="gblog-markdown__link"
+href="https://addons.mozilla.org/ja/firefox/addon/gossip-site-blocker/"
+>ゴシップサイトブロッカー on Firefox&lt;/a>&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="absolute-enable-right-click--copy">
+Absolute Enable Right Click &amp;amp; Copy
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#absolute-enable-right-click--copy" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Absolute Enable Right Click &amp;amp; Copy" href="#absolute-enable-right-click--copy">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>しばし、ブログなどで右クリック禁止のサイトが存在します。&lt;br>
+コピペ対策なんでしょうが、右クリックからキーワードを検索したいときにできずストレスになります。(しかもHTMLファイルとして直接ダウンロードすればコピーできてしまうので全く対策として意味がない)&lt;br>
+これを使えば、ワンクリックで右クリック禁止を解除できます。&lt;/p>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://chrome.google.com/webstore/detail/absolute-enable-right-cli/jdocbkpgdakpekjlhemmfcncgdjeiika"
+>Absolute Enable Right Click &amp;amp; Copy on Chrome&lt;/a>&lt;br>
+&lt;a
+class="gblog-markdown__link"
+href="https://addons.mozilla.org/ja/firefox/addon/absolute-enable-right-click/"
+>Absolute Enable Right Click &amp;amp; Copy on Firefox&lt;/a>&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="localhost-ogp-チェッカー">
+Localhost OGP チェッカー
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#localhost-ogp-チェッカー" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Localhost OGP チェッカー" href="#localhost-ogp-%e3%83%81%e3%82%a7%e3%83%83%e3%82%ab%e3%83%bc">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>OGPはローカル環境ではテストすることができません。&lt;br>
+しかし、この拡張機能を使えば、一時的にURLを発行してOGPをテストすることができます。&lt;/p>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://chrome.google.com/webstore/detail/localhost-open-graph-chec/gcbnmkhkglonipggglncobhklaegphgn"
+>Localhost OGP チェッカー on Chrome&lt;/a>&lt;br>
+&lt;del>&lt;a
+class="gblog-markdown__link"
+href=""
+>Localhost OGP チェッカー on Firefox&lt;/a>&lt;/del> 探しましたが、Chrome版しかないようです。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="おだやかtwitter">
+おだやかTwitter
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#おだやかtwitter" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor おだやかTwitter" href="#%e3%81%8a%e3%81%a0%e3%82%84%e3%81%8btwitter">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>多くの人が大好きなTwitterですが、いいね・リツイートが可視化され比較されたり、一部の人が過激な政治タグをトレンド入りさせたり、ジェンダー記事ごり押ししてきたり、何かと疲れがちです。&lt;br>
+この拡張機能を使えば、いいね・リツイート、トレンドリストを非表示にできます。(どれを非表示にするかも選べます)&lt;br>
+快適なTwitterライフを!!&lt;/p>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://chrome.google.com/webstore/detail/calm-twitter/cknklikacoaeledfaldmhabmldkldocj"
+>おだやかTwitter on Chrome&lt;/a>&lt;br>
+&lt;del>&lt;a
+class="gblog-markdown__link"
+href=""
+>おだやかTwitter on Firefox&lt;/a>&lt;/del> 探しましたが、Chrome版しかないようです。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="おわり">
+おわり
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#おわり" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor おわり" href="#%e3%81%8a%e3%82%8f%e3%82%8a">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>いかがで(ry&lt;br>
+Chrome版があってFirefox版が無いっていうのが多くてちょっと残念ですね。&lt;br>
+Chromeに独占されるのはまずいので、なんとかFirefoxには頑張ってもらいたいです。&lt;/p></content></entry><entry><title>GAFAMやその他企業の独自プロセッサやSoCのまとめ</title><link href="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/</id><published>2022-03-07T01:12:25+09:00</published><updated>2022-03-07T01:12:25+09:00</updated><content type="html">
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
