@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-06-27T14:41:05+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>SecHack365 表現駆動コース2022に参加することになりました</title><link href="https://blog.penguincabinet.com/posts/SecHack365-login/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/SecHack365-login/</id><published>2022-06-27T19:55:14+09:00</published><updated>2022-06-27T19:55:14+09:00</updated><content type="html">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-09-02T15:46:18+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>小説・ラノベを公募に出した時の個人的反省・気を付けた点</title><link href="https://blog.penguincabinet.com/posts/beginner-writer-policy/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/beginner-writer-policy/</id><published>2022-09-02T21:38:29+09:00</published><updated>2022-09-02T21:38:29+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>僕は小説を書くのが趣味で、せっかくなのでラノベの公募に出しました。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="完走した感想">
+完走した感想
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#完走した感想" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 完走した感想" href="#%e5%ae%8c%e8%b5%b0%e3%81%97%e3%81%9f%e6%84%9f%e6%83%b3">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>**小説の面白さ以前に、指定の文字数書き終わるのがきつかった。**いくら趣味とはいえモチベーションが続かない。12万文字なんて書けるかって何回も思いました。 &lt;br>
+さらにこの文字数を読んで意味が伝わる文章にしなければなりません。品質管理がキツイ。 &lt;br>
+これらに合格してはじめて物語の面白さで競い始めるので、恐ろしい競争社会だと思います。 &lt;br>
+多分物語の面白さ以前の話は一次選考で落とすんだろうと思います。一次選考通るのが理想ですが、相当難しい気がする。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="個人的反省気を付けた点">
+個人的反省・気を付けた点
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#個人的反省気を付けた点" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 個人的反省・気を付けた点" href="#%e5%80%8b%e4%ba%ba%e7%9a%84%e5%8f%8d%e7%9c%81%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="反省商業的な面を意識したあらすじ本編を作成できなかった">
+【反省】商業的な面を意識したあらすじ・本編を作成できなかった
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#反省商業的な面を意識したあらすじ本編を作成できなかった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】商業的な面を意識したあらすじ・本編を作成できなかった" href="#%e5%8f%8d%e7%9c%81%e5%95%86%e6%a5%ad%e7%9a%84%e3%81%aa%e9%9d%a2%e3%82%92%e6%84%8f%e8%ad%98%e3%81%97%e3%81%9f%e3%81%82%e3%82%89%e3%81%99%e3%81%98%e6%9c%ac%e7%b7%a8%e3%82%92%e4%bd%9c%e6%88%90%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>出版社は慈善事業ではありませんので、売れるラノベを求めています。&lt;br>
+もちろん図抜けた才能があれば別かもしれませんが、商業的なものを意識する必要があると思います。
+その点全く意識できず、今回は書き終わることで手一杯でした。&lt;br>
+特にあらすじはそもそも本編を読んでもらえるか否かに直結するので、次の機会があればは「売れそうか」というのも考えたい。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="気を付けた点三点リーダーの多用に気を付けた">
+【気を付けた点】三点リーダーの多用に気を付けた
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#気を付けた点三点リーダーの多用に気を付けた" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【気を付けた点】三点リーダーの多用に気を付けた" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e4%b8%89%e7%82%b9%e3%83%aa%e3%83%bc%e3%83%80%e3%83%bc%e3%81%ae%e5%a4%9a%e7%94%a8%e3%81%ab%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>いわゆる三点リーダー症候群ですね。小説だけではなく現実のLINE等でもあるようです。&lt;br>
+僕も三点リーダー多用してしまう人間なので特に地の文で使わないよう気を付けました。 &lt;br>
+ただ削っても結構な数三点リーダーを使っていたので、正直どこまで削ればいいのか分かりません。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="気を付けた点の多用に気を付けた">
+【気を付けた点】「、」の多用に気を付けた
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#気を付けた点の多用に気を付けた" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【気を付けた点】「、」の多用に気を付けた" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e3%81%ae%e5%a4%9a%e7%94%a8%e3%81%ab%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>文章を区切る「、」ですが、多用し文を区切りすぎると読みづらくなってしまいます。 &lt;br>
+三点リーダーと同じく多用しがちだったので、気を付けました。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="気を付けた点一文を短くした">
+【気を付けた点】一文を短くした
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#気を付けた点一文を短くした" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【気を付けた点】一文を短くした" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e4%b8%80%e6%96%87%e3%82%92%e7%9f%ad%e3%81%8f%e3%81%97%e3%81%9f">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>一文を長くすると読みづらく、論点が分からなくなる恐れがあります。&lt;br>
+そこであらすじでは長い一文を代名詞等を使い複数文にしました。本編は管理が追い付きませんでした。&lt;br>
+ただし、文学等で長い一文は結構あるのでセンスの問題…?&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="反省人物を代名詞にするべきだった">
+【反省】人物を代名詞にするべきだった
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#反省人物を代名詞にするべきだった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】人物を代名詞にするべきだった" href="#%e5%8f%8d%e7%9c%81%e4%ba%ba%e7%89%a9%e3%82%92%e4%bb%a3%e5%90%8d%e8%a9%9e%e3%81%ab%e3%81%99%e3%82%8b%e3%81%b9%e3%81%8d%e3%81%a0%e3%81%a3%e3%81%9f">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>僕の小説は特徴的な口調の人物がおらず、複数人の会話劇で誰が誰なのか分からない恐れがありました。&lt;br>
+そのため代名詞にせずそのまま人名を示したのですが、くどくなってしまった気がします。うまく代名詞に落とし込む方法を探したい…。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="反省特徴的なヒロインを出せなかった">
+【反省】特徴的なヒロインを出せなかった
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#反省特徴的なヒロインを出せなかった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】特徴的なヒロインを出せなかった" href="#%e5%8f%8d%e7%9c%81%e7%89%b9%e5%be%b4%e7%9a%84%e3%81%aa%e3%83%92%e3%83%ad%e3%82%a4%e3%83%b3%e3%82%92%e5%87%ba%e3%81%9b%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>小説には主人公の側近の三人の女性が登場し、それぞれ両想いのメインヒロイン、片思いのサブヒロイン、そして仕事上での好意くらいサブヒロインです。&lt;br>
+ただし、みな性格が似ているような気がしてあまりそれぞれの個性を表現することができませんでした。&lt;br>
+前半は特に見分けがつかない気がする。外見の描写も少なく、違いを立場の違いくらいしか出せなかったことが悔やまれます。 &lt;br>
+次はヒロインのパーソナリティをしっかり作りこみたい、またラノベ的なキャラクターヒロインにも挑戦したいです。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="反省時代設定の描写が甘かった">
+【反省】時代設定の描写が甘かった
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-policy/#反省時代設定の描写が甘かった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】時代設定の描写が甘かった" href="#%e5%8f%8d%e7%9c%81%e6%99%82%e4%bb%a3%e8%a8%ad%e5%ae%9a%e3%81%ae%e6%8f%8f%e5%86%99%e3%81%8c%e7%94%98%e3%81%8b%e3%81%a3%e3%81%9f">
+&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>今作品は主人公がメインヒロインとの関係性や指導者としての夢をかなえることへの葛藤を考えることを主軸に置きました。 &lt;br>
+しかしながら、時代設定や世界観の設定が甘かった気がします。 &lt;br>
+あまり作りこみすぎると執筆できませんが、それでも物語に深みを持たせるためにもっと作りこむべきでした。 &lt;br>
+特に軍事活動の描写はリアリティに直結するので、うまく描写できるようになりたいです。&lt;/p></content></entry><entry><title>SecHack365 表現駆動コース2022に参加することになりました</title><link href="https://blog.penguincabinet.com/posts/SecHack365-login/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/SecHack365-login/</id><published>2022-06-27T19:55:14+09:00</published><updated>2022-06-27T19:55:14+09:00</updated><content type="html">
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
