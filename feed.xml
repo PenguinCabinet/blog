@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-09-15T09:32:37+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>公募に出した小説(ラノベ)の個人的反省・気を付けた点</title><link href="https://blog.penguincabinet.com/posts/beginner-writer-review1/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/beginner-writer-review1/</id><published>2022-09-02T21:38:29+09:00</published><updated>2022-09-02T21:38:29+09:00</updated><content type="html">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-09-15T16:35:41+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>「第2回サイバーセキュリティ・スクール CTF編」に参加しました</title><link href="https://blog.penguincabinet.com/posts/join-CTF-event1/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/join-CTF-event1/</id><published>2022-09-15T19:03:29+09:00</published><updated>2022-09-15T19:03:29+09:00</updated><content type="html">
+&lt;p>総務省近畿総合通信局が開催している&lt;a
+class="gblog-markdown__link"
+href="https://www.kansai.meti.go.jp/2-7it/k-cybersecurity-network/220810press.html"
+>「第2回サイバーセキュリティ・スクール CTF編」&lt;/a>に参加しました。 &lt;br>
+元々CTFに興味があって、初心者向けのイベントだったので参加した次第です。&lt;/p></content></entry><entry><title>公募に出した小説(ラノベ)の個人的反省・気を付けた点</title><link href="https://blog.penguincabinet.com/posts/beginner-writer-review1/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/beginner-writer-review1/</id><published>2022-09-02T21:38:29+09:00</published><updated>2022-09-02T21:38:29+09:00</updated><content type="html">
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -11,8 +16,8 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="完走した感想">
 完走した感想
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#完走した感想" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 完走した感想" href="#%e5%ae%8c%e8%b5%b0%e3%81%97%e3%81%9f%e6%84%9f%e6%83%b3">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#完走した感想" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 完走した感想" href="#%e5%ae%8c%e8%b5%b0%e3%81%97%e3%81%9f%e6%84%9f%e6%83%b3">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -24,16 +29,16 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="個人的反省気を付けた点">
 個人的反省・気を付けた点
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#個人的反省気を付けた点" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 個人的反省・気を付けた点" href="#%e5%80%8b%e4%ba%ba%e7%9a%84%e5%8f%8d%e7%9c%81%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#個人的反省気を付けた点" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 個人的反省・気を付けた点" href="#%e5%80%8b%e4%ba%ba%e7%9a%84%e5%8f%8d%e7%9c%81%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="反省商業的な面を意識したあらすじ本編を作成できなかった">
 【反省】商業的な面を意識したあらすじ・本編を作成できなかった
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省商業的な面を意識したあらすじ本編を作成できなかった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】商業的な面を意識したあらすじ・本編を作成できなかった" href="#%e5%8f%8d%e7%9c%81%e5%95%86%e6%a5%ad%e7%9a%84%e3%81%aa%e9%9d%a2%e3%82%92%e6%84%8f%e8%ad%98%e3%81%97%e3%81%9f%e3%81%82%e3%82%89%e3%81%99%e3%81%98%e6%9c%ac%e7%b7%a8%e3%82%92%e4%bd%9c%e6%88%90%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省商業的な面を意識したあらすじ本編を作成できなかった" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 【反省】商業的な面を意識したあらすじ・本編を作成できなかった" href="#%e5%8f%8d%e7%9c%81%e5%95%86%e6%a5%ad%e7%9a%84%e3%81%aa%e9%9d%a2%e3%82%92%e6%84%8f%e8%ad%98%e3%81%97%e3%81%9f%e3%81%82%e3%82%89%e3%81%99%e3%81%98%e6%9c%ac%e7%b7%a8%e3%82%92%e4%bd%9c%e6%88%90%e3%81%a7%e3%81%8d%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -44,8 +49,8 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="気を付けた点三点リーダーの多用に気を付けた">
 【気を付けた点】三点リーダーの多用に気を付けた
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#気を付けた点三点リーダーの多用に気を付けた" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【気を付けた点】三点リーダーの多用に気を付けた" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e4%b8%89%e7%82%b9%e3%83%aa%e3%83%bc%e3%83%80%e3%83%bc%e3%81%ae%e5%a4%9a%e7%94%a8%e3%81%ab%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#気を付けた点三点リーダーの多用に気を付けた" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 【気を付けた点】三点リーダーの多用に気を付けた" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e4%b8%89%e7%82%b9%e3%83%aa%e3%83%bc%e3%83%80%e3%83%bc%e3%81%ae%e5%a4%9a%e7%94%a8%e3%81%ab%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -55,8 +60,8 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="気を付けた点の多用に気を付けた">
 【気を付けた点】「、」の多用に気を付けた
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#気を付けた点の多用に気を付けた" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【気を付けた点】「、」の多用に気を付けた" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e3%81%ae%e5%a4%9a%e7%94%a8%e3%81%ab%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#気を付けた点の多用に気を付けた" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 【気を付けた点】「、」の多用に気を付けた" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e3%81%ae%e5%a4%9a%e7%94%a8%e3%81%ab%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -65,8 +70,8 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="気を付けた点一文を短くした">
 【気を付けた点】一文を短くした
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#気を付けた点一文を短くした" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【気を付けた点】一文を短くした" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e4%b8%80%e6%96%87%e3%82%92%e7%9f%ad%e3%81%8f%e3%81%97%e3%81%9f">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#気を付けた点一文を短くした" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 【気を付けた点】一文を短くした" href="#%e6%b0%97%e3%82%92%e4%bb%98%e3%81%91%e3%81%9f%e7%82%b9%e4%b8%80%e6%96%87%e3%82%92%e7%9f%ad%e3%81%8f%e3%81%97%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -76,8 +81,8 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="反省人物を代名詞にするべきだった">
 【反省】人物を代名詞にするべきだった
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省人物を代名詞にするべきだった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】人物を代名詞にするべきだった" href="#%e5%8f%8d%e7%9c%81%e4%ba%ba%e7%89%a9%e3%82%92%e4%bb%a3%e5%90%8d%e8%a9%9e%e3%81%ab%e3%81%99%e3%82%8b%e3%81%b9%e3%81%8d%e3%81%a0%e3%81%a3%e3%81%9f">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省人物を代名詞にするべきだった" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 【反省】人物を代名詞にするべきだった" href="#%e5%8f%8d%e7%9c%81%e4%ba%ba%e7%89%a9%e3%82%92%e4%bb%a3%e5%90%8d%e8%a9%9e%e3%81%ab%e3%81%99%e3%82%8b%e3%81%b9%e3%81%8d%e3%81%a0%e3%81%a3%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -86,8 +91,8 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="反省特徴的なヒロインを出せなかった">
 【反省】特徴的なヒロインを出せなかった
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省特徴的なヒロインを出せなかった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】特徴的なヒロインを出せなかった" href="#%e5%8f%8d%e7%9c%81%e7%89%b9%e5%be%b4%e7%9a%84%e3%81%aa%e3%83%92%e3%83%ad%e3%82%a4%e3%83%b3%e3%82%92%e5%87%ba%e3%81%9b%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省特徴的なヒロインを出せなかった" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 【反省】特徴的なヒロインを出せなかった" href="#%e5%8f%8d%e7%9c%81%e7%89%b9%e5%be%b4%e7%9a%84%e3%81%aa%e3%83%92%e3%83%ad%e3%82%a4%e3%83%b3%e3%82%92%e5%87%ba%e3%81%9b%e3%81%aa%e3%81%8b%e3%81%a3%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -98,8 +103,8 @@
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="反省時代設定の描写が甘かった">
 【反省】時代設定の描写が甘かった
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省時代設定の描写が甘かった" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 【反省】時代設定の描写が甘かった" href="#%e5%8f%8d%e7%9c%81%e6%99%82%e4%bb%a3%e8%a8%ad%e5%ae%9a%e3%81%ae%e6%8f%8f%e5%86%99%e3%81%8c%e7%94%98%e3%81%8b%e3%81%a3%e3%81%9f">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/beginner-writer-review1/#反省時代設定の描写が甘かった" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 【反省】時代設定の描写が甘かった" href="#%e5%8f%8d%e7%9c%81%e6%99%82%e4%bb%a3%e8%a8%ad%e5%ae%9a%e3%81%ae%e6%8f%8f%e5%86%99%e3%81%8c%e7%94%98%e3%81%8b%e3%81%a3%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -123,8 +128,8 @@ href="https://github.com/PenguinCabinet/Writer-Stock"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/SecHack365-login/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/SecHack365-login/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -136,8 +141,8 @@ href="https://sechack365.nict.go.jp/"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -145,16 +150,16 @@ href="https://sechack365.nict.go.jp/"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="ほんぺん">
 ほんぺん
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#ほんぺん" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor ほんぺん" href="#%e3%81%bb%e3%82%93%e3%81%ba%e3%82%93">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#ほんぺん" class="gblog-post__anchor clip flex align-center" aria-label="Anchor ほんぺん" href="#%e3%81%bb%e3%82%93%e3%81%ba%e3%82%93">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="personal-blocklistゴシップサイトブロッカー">
 Personal Blocklist・ゴシップサイトブロッカー
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#personal-blocklistゴシップサイトブロッカー" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Personal Blocklist・ゴシップサイトブロッカー" href="#personal-blocklist%e3%82%b4%e3%82%b7%e3%83%83%e3%83%97%e3%82%b5%e3%82%a4%e3%83%88%e3%83%96%e3%83%ad%e3%83%83%e3%82%ab%e3%83%bc">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#personal-blocklistゴシップサイトブロッカー" class="gblog-post__anchor clip flex align-center" aria-label="Anchor Personal Blocklist・ゴシップサイトブロッカー" href="#personal-blocklist%e3%82%b4%e3%82%b7%e3%83%83%e3%83%97%e3%82%b5%e3%82%a4%e3%83%88%e3%83%96%e3%83%ad%e3%83%83%e3%82%ab%e3%83%bc">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -176,8 +181,8 @@ href="https://addons.mozilla.org/ja/firefox/addon/gossip-site-blocker/"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="absolute-enable-right-click--copy">
 Absolute Enable Right Click &amp;amp; Copy
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#absolute-enable-right-click--copy" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Absolute Enable Right Click &amp;amp; Copy" href="#absolute-enable-right-click--copy">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#absolute-enable-right-click--copy" class="gblog-post__anchor clip flex align-center" aria-label="Anchor Absolute Enable Right Click &amp;amp; Copy" href="#absolute-enable-right-click--copy">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -195,8 +200,8 @@ href="https://addons.mozilla.org/ja/firefox/addon/absolute-enable-right-click/"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="localhost-ogp-チェッカー">
 Localhost OGP チェッカー
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#localhost-ogp-チェッカー" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor Localhost OGP チェッカー" href="#localhost-ogp-%e3%83%81%e3%82%a7%e3%83%83%e3%82%ab%e3%83%bc">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#localhost-ogp-チェッカー" class="gblog-post__anchor clip flex align-center" aria-label="Anchor Localhost OGP チェッカー" href="#localhost-ogp-%e3%83%81%e3%82%a7%e3%83%83%e3%82%ab%e3%83%bc">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -213,8 +218,8 @@ href=""
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="おだやかtwitter">
 おだやかTwitter
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#おだやかtwitter" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor おだやかTwitter" href="#%e3%81%8a%e3%81%a0%e3%82%84%e3%81%8btwitter">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#おだやかtwitter" class="gblog-post__anchor clip flex align-center" aria-label="Anchor おだやかTwitter" href="#%e3%81%8a%e3%81%a0%e3%82%84%e3%81%8btwitter">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -232,8 +237,8 @@ href=""
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="おわり">
 おわり
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#おわり" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor おわり" href="#%e3%81%8a%e3%82%8f%e3%82%8a">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/awesome-browser-extensions/#おわり" class="gblog-post__anchor clip flex align-center" aria-label="Anchor おわり" href="#%e3%81%8a%e3%82%8f%e3%82%8a">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -243,8 +248,8 @@ Chromeに独占されるのはまずいので、なんとかFirefoxには頑張�
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -254,8 +259,8 @@ Chromeに独占されるのはまずいので、なんとかFirefoxには頑張�
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="プロセッサ">
 プロセッサ
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#プロセッサ" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor プロセッサ" href="#%e3%83%97%e3%83%ad%e3%82%bb%e3%83%83%e3%82%b5">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#プロセッサ" class="gblog-post__anchor clip flex align-center" aria-label="Anchor プロセッサ" href="#%e3%83%97%e3%83%ad%e3%82%bb%e3%83%83%e3%82%b5">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -388,8 +393,8 @@ href="https://www.ibm.com/blogs/systems/jp-ja/ibm-power-systems-announces-power1
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="おわりに">
 おわりに
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#おわりに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor おわりに" href="#%e3%81%8a%e3%82%8f%e3%82%8a%e3%81%ab">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#おわりに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor おわりに" href="#%e3%81%8a%e3%82%8f%e3%82%8a%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -400,8 +405,8 @@ NvidiaやAMDのGPUも割愛しています。&lt;br>
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -413,8 +418,8 @@ href="https://qiita.com/advent-calendar/2021/go"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="概要">
 概要
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#概要" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 概要" href="#%e6%a6%82%e8%a6%81">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#概要" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 概要" href="#%e6%a6%82%e8%a6%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -429,16 +434,16 @@ href="https://fyne.io/"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="経緯">
 経緯
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#経緯" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 経緯" href="#%e7%b5%8c%e7%b7%af">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#経緯" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 経緯" href="#%e7%b5%8c%e7%b7%af">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="2019年ごろissueが立てられる">
 2019年ごろIssueが立てられる
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2019年ごろissueが立てられる" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 2019年ごろIssueが立てられる" href="#2019%e5%b9%b4%e3%81%94%e3%82%8dissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2019年ごろissueが立てられる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2019年ごろIssueが立てられる" href="#2019%e5%b9%b4%e3%81%94%e3%82%8dissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -456,8 +461,8 @@ href="https://github.com/fyne-io/fyne/issues/142"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="2020年ごろにも同じようなissueが立てられる">
 2020年ごろにも同じようなIssueが立てられる
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2020年ごろにも同じようなissueが立てられる" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 2020年ごろにも同じようなIssueが立てられる" href="#2020%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%ab%e3%82%82%e5%90%8c%e3%81%98%e3%82%88%e3%81%86%e3%81%aaissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2020年ごろにも同じようなissueが立てられる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2020年ごろにも同じようなIssueが立てられる" href="#2020%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%ab%e3%82%82%e5%90%8c%e3%81%98%e3%82%88%e3%81%86%e3%81%aaissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -473,8 +478,8 @@ href="https://github.com/fyne-io/fyne/issues/896"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="2021年ごろにprが開かれる">
 2021年ごろにPRが開かれる
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2021年ごろにprが開かれる" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 2021年ごろにPRが開かれる" href="#2021%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%abpr%e3%81%8c%e9%96%8b%e3%81%8b%e3%82%8c%e3%82%8b">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2021年ごろにprが開かれる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2021年ごろにPRが開かれる" href="#2021%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%abpr%e3%81%8c%e9%96%8b%e3%81%8b%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -490,8 +495,8 @@ href="https://github.com/fyne-io/proposals/pull/5"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h2 id="公式ブログの次の大きな実装に載る">
 公式ブログの「次の大きな実装」に載る
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#公式ブログの次の大きな実装に載る" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 公式ブログの「次の大きな実装」に載る" href="#%e5%85%ac%e5%bc%8f%e3%83%96%e3%83%ad%e3%82%b0%e3%81%ae%e6%ac%a1%e3%81%ae%e5%a4%a7%e3%81%8d%e3%81%aa%e5%ae%9f%e8%a3%85%e3%81%ab%e8%bc%89%e3%82%8b">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#公式ブログの次の大きな実装に載る" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 公式ブログの「次の大きな実装」に載る" href="#%e5%85%ac%e5%bc%8f%e3%83%96%e3%83%ad%e3%82%b0%e3%81%ae%e6%ac%a1%e3%81%ae%e5%a4%a7%e3%81%8d%e3%81%aa%e5%ae%9f%e8%a3%85%e3%81%ab%e8%bc%89%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h2>
 &lt;/div>
@@ -503,8 +508,8 @@ alt="img"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="エラーの概要">
 エラーの概要
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#エラーの概要" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor エラーの概要" href="#%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e6%a6%82%e8%a6%81">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#エラーの概要" class="gblog-post__anchor clip flex align-center" aria-label="Anchor エラーの概要" href="#%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e6%a6%82%e8%a6%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -517,8 +522,8 @@ alt="img"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="対策">
 対策
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#対策" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 対策" href="#%e5%af%be%e7%ad%96">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#対策" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 対策" href="#%e5%af%be%e7%ad%96">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -528,8 +533,8 @@ alt="img"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="参考">
 参考
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#参考" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 参考" href="#%e5%8f%82%e8%80%83">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#参考" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 参考" href="#%e5%8f%82%e8%80%83">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -540,8 +545,8 @@ href="https://www.kaggle.com/general/269699"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="はじめに">
 はじめに
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#はじめに" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -558,8 +563,8 @@ href="https://web.arena.ne.jp/"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="16コアの場合">
 16コアの場合
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#16コアの場合" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor 16コアの場合" href="#16%e3%82%b3%e3%82%a2%e3%81%ae%e5%a0%b4%e5%90%88">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#16コアの場合" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 16コアの場合" href="#16%e3%82%b3%e3%82%a2%e3%81%ae%e5%a0%b4%e5%90%88">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
@@ -608,8 +613,8 @@ href="https://web.arena.ne.jp/"
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="まとめ">
 まとめ
-&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#まとめ" class="gblog-post__anchor gblog-post__anchor--right clip" aria-label="Anchor まとめ" href="#%e3%81%be%e3%81%a8%e3%82%81">
-&lt;svg class="icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#まとめ" class="gblog-post__anchor clip flex align-center" aria-label="Anchor まとめ" href="#%e3%81%be%e3%81%a8%e3%82%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
 &lt;/a>
 &lt;/h1>
 &lt;/div>
