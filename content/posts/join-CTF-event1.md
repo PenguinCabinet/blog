@@ -1,7 +1,7 @@
 ---
 title: "「第2回サイバーセキュリティ・スクール CTF編」に参加しました"
 date: 2022-09-15T19:03:29+09:00
-draft: true
+draft: false
 categories: []
 ---
 
