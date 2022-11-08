@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-11-08T15:36:02+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>D言語のTwitter Communityを作った話</title><link href="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/</id><published>2022-11-09T00:15:12+09:00</published><updated>2022-11-09T00:15:12+09:00</updated><content type="html">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-11-08T15:40:20+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>D言語のTwitter Communityを作った話</title><link href="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/</id><published>2022-11-09T00:15:12+09:00</published><updated>2022-11-09T00:15:12+09:00</updated><content type="html">
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="d言語のtwitter-communityを作りました">
 D言語のTwitter Communityを作りました
@@ -11,7 +11,7 @@ D言語のTwitter Communityを作りました
 class="gblog-markdown__link--raw"
 href="https://twitter.com/i/communities/1558402206206132224"
 >&lt;img
-src="/static/images/Dlang1.png"
+src="/images/Dlang1.png"
 alt="img"
 />&lt;/a>&lt;/p>
 &lt;div class="gblog-post__anchorwrap">
@@ -25,7 +25,8 @@ alt="img"
 &lt;p>&lt;a
 class="gblog-markdown__link"
 href="https://dlang.org"
->D言語&lt;/a>のTwitter Communityが検索してもなかったので、これはコミュニティに貢献するチャンスとばかりに、勢いで作って告知しました。&lt;/p>
+>D言語&lt;/a>のTwitter Communityが検索してもなかったのため、 &lt;br>
+これはコミュニティに貢献するチャンスとばかりに、勢いで作って告知しました。&lt;/p>
 &lt;div class="gblog-post__anchorwrap">
 &lt;h1 id="d言語との出会い">
 D言語との出会い
@@ -34,11 +35,11 @@ D言語との出会い
 &lt;/a>
 &lt;/h1>
 &lt;/div>
-&lt;p>中学時代にC/C++から入った人間ですが、中二病も相まってプログラミング言語を探すあくなき旅に出ます。 &lt;br>
+&lt;p>僕は中学時代にC/C++から入った人間ですが、中二病も相まってプログラミング言語を探すあくなき旅に出ます。 &lt;br>
 出会ったのがD言語です。&lt;br>
 何よりもマスコット。D言語くん。この知る人ぞ知る感。 &lt;br>
 &lt;img
-src="/static/images/D-man.png"
+src="/images/D-man.png"
 alt="D-man"
 />&lt;/p>
 &lt;div class="gblog-post__anchorwrap">
