@@ -6,16 +6,17 @@ categories: []
 ---
 # D言語のTwitter Communityを作りました
 
-[![img](/static/images/Dlang1.png)](https://twitter.com/i/communities/1558402206206132224)
+[![img](/images/Dlang1.png)](https://twitter.com/i/communities/1558402206206132224)
 
 # なぜ作ったのか
-[D言語](https://dlang.org)のTwitter Communityが検索してもなかったので、これはコミュニティに貢献するチャンスとばかりに、勢いで作って告知しました。
+[D言語](https://dlang.org)のTwitter Communityが検索してもなかったのため、    
+これはコミュニティに貢献するチャンスとばかりに、勢いで作って告知しました。
 
 # D言語との出会い
-中学時代にC/C++から入った人間ですが、中二病も相まってプログラミング言語を探すあくなき旅に出ます。    
+僕は中学時代にC/C++から入った人間ですが、中二病も相まってプログラミング言語を探すあくなき旅に出ます。    
 出会ったのがD言語です。   
 何よりもマスコット。D言語くん。この知る人ぞ知る感。    
-![D-man](/static/images/D-man.png)
+![D-man](/images/D-man.png)
 ## 書いていて楽しい
 契約プログラミングや関数型プログラミングをサポートしているため、モダンな書き方がじゃんじゃんできます。    
 Goのようにコード規則が堅苦しくないです。(むしろエンタープライズの観点からみるとデメリットですが)    
