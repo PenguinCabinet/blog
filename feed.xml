@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-09-15T16:35:41+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>「第2回サイバーセキュリティ・スクール CTF編」に参加しました</title><link href="https://blog.penguincabinet.com/posts/join-CTF-event1/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/join-CTF-event1/</id><published>2022-09-15T19:03:29+09:00</published><updated>2022-09-15T19:03:29+09:00</updated><content type="html">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2022-11-08T15:36:02+00:00</updated><id>https://blog.penguincabinet.com/</id><entry><title>D言語のTwitter Communityを作った話</title><link href="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/</id><published>2022-11-09T00:15:12+09:00</published><updated>2022-11-09T00:15:12+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="d言語のtwitter-communityを作りました">
+D言語のTwitter Communityを作りました
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/#d言語のtwitter-communityを作りました" class="gblog-post__anchor clip flex align-center" aria-label="Anchor D言語のTwitter Communityを作りました" href="#d%e8%a8%80%e8%aa%9e%e3%81%aetwitter-community%e3%82%92%e4%bd%9c%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>&lt;a
+class="gblog-markdown__link--raw"
+href="https://twitter.com/i/communities/1558402206206132224"
+>&lt;img
+src="/static/images/Dlang1.png"
+alt="img"
+/>&lt;/a>&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="なぜ作ったのか">
+なぜ作ったのか
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/#なぜ作ったのか" class="gblog-post__anchor clip flex align-center" aria-label="Anchor なぜ作ったのか" href="#%e3%81%aa%e3%81%9c%e4%bd%9c%e3%81%a3%e3%81%9f%e3%81%ae%e3%81%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://dlang.org"
+>D言語&lt;/a>のTwitter Communityが検索してもなかったので、これはコミュニティに貢献するチャンスとばかりに、勢いで作って告知しました。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="d言語との出会い">
+D言語との出会い
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/#d言語との出会い" class="gblog-post__anchor clip flex align-center" aria-label="Anchor D言語との出会い" href="#d%e8%a8%80%e8%aa%9e%e3%81%a8%e3%81%ae%e5%87%ba%e4%bc%9a%e3%81%84">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>中学時代にC/C++から入った人間ですが、中二病も相まってプログラミング言語を探すあくなき旅に出ます。 &lt;br>
+出会ったのがD言語です。&lt;br>
+何よりもマスコット。D言語くん。この知る人ぞ知る感。 &lt;br>
+&lt;img
+src="/static/images/D-man.png"
+alt="D-man"
+/>&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="書いていて楽しい">
+書いていて楽しい
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/#書いていて楽しい" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 書いていて楽しい" href="#%e6%9b%b8%e3%81%84%e3%81%a6%e3%81%84%e3%81%a6%e6%a5%bd%e3%81%97%e3%81%84">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>契約プログラミングや関数型プログラミングをサポートしているため、モダンな書き方がじゃんじゃんできます。 &lt;br>
+Goのようにコード規則が堅苦しくないです。(むしろエンタープライズの観点からみるとデメリットですが) &lt;br>
+さらにコンパイル時実行も充実しているため、所謂黒魔術を楽しめます。 &lt;br>
+え?ビルドシステム?ちゃんと、&lt;a
+class="gblog-markdown__link"
+href="https://code.dlang.org"
+>dub&lt;/a>があるのでご安心を。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="これから">
+これから
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Dlang-Twitter-Community/#これから" class="gblog-post__anchor clip flex align-center" aria-label="Anchor これから" href="#%e3%81%93%e3%82%8c%e3%81%8b%e3%82%89">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>ずっとD言語コミュニティに関わりたいと思っていたので、とりあえず関われて嬉しいです。 &lt;br>
+実際に何か作って貢献したいため、またD言語で何かを作ろうかと思っています。&lt;/p></content></entry><entry><title>「第2回サイバーセキュリティ・スクール CTF編」に参加しました</title><link href="https://blog.penguincabinet.com/posts/join-CTF-event1/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/join-CTF-event1/</id><published>2022-09-15T19:03:29+09:00</published><updated>2022-09-15T19:03:29+09:00</updated><content type="html">
 &lt;p>総務省近畿総合通信局が開催している&lt;a
 class="gblog-markdown__link"
 href="https://www.kansai.meti.go.jp/2-7it/k-cybersecurity-network/220810press.html"
