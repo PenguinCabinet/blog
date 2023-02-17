@@ -1,7 +1,7 @@
 ---
 title: "肉じゃがを自炊した"
 date: 2023-02-17T15:52:20+09:00
-draft: true
+draft: false
 categories: ["自炊"]
 ---
 
