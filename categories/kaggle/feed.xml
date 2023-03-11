@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>Kaggle on 愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/categories/kaggle/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/categories/kaggle/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-03-11T13:35:09+00:00</updated><id>https://blog.penguincabinet.com/categories/kaggle/</id><entry><title>KaggleのJupyter NotebookでLogisticRegressionをすると吐くエラーの対策</title><link href="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/</id><published>2022-02-14T21:15:34+09:00</published><updated>2022-02-14T21:15:34+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="エラーの概要">
+エラーの概要
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#エラーの概要" class="gblog-post__anchor clip flex align-center" aria-label="Anchor エラーの概要" href="#%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e6%a6%82%e8%a6%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>多くのサイトで乗っているような手順に従って&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.linear_model&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">LogisticRegression&lt;/span>
+&lt;span class="n">model&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">LogisticRegression&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>として、KaggleのJupyter Notebookでロジスティック回帰すると&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-shell" data-lang="shell">AttributeError: &lt;span class="s1">&amp;#39;str&amp;#39;&lt;/span> object has no attribute &lt;span class="s1">&amp;#39;decode&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>エラーを吐きます&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="対策">
+対策
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#対策" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 対策" href="#%e5%af%be%e7%ad%96">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.linear_model&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">LogisticRegression&lt;/span>
+&lt;span class="n">model&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">LogisticRegression&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">solver&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;liblinear&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすればエラーが出なくなります&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="参考">
+参考
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#参考" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 参考" href="#%e5%8f%82%e8%80%83">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://www.kaggle.com/general/269699"
+>Kaggleのディスカッションページ&lt;/a>&lt;/p></content><category scheme="https://blog.penguincabinet.com/categories/programming" term="programming" label="programming"/><category scheme="https://blog.penguincabinet.com/categories/kaggle" term="kaggle" label="kaggle"/></entry></feed>

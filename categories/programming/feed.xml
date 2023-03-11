@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>Programming on 愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/categories/programming/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/categories/programming/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-03-11T13:35:09+00:00</updated><id>https://blog.penguincabinet.com/categories/programming/</id><entry><title>GAFAMやその他企業の独自プロセッサやSoCのまとめ</title><link href="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/</id><published>2022-03-07T01:12:25+09:00</published><updated>2022-03-07T01:12:25+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>ARMはARM社にロイヤリティを支払えば独自のプロセッサを製作することや既存のIPを使用することができます。&lt;br>
+ほかにも近年OSSでロイヤリティフリーのRISC-Vも台頭してきています。&lt;br>
+そこで今回はそれらのプロセッサやSoCについて調べてみました。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="プロセッサ">
+プロセッサ
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#プロセッサ" class="gblog-post__anchor clip flex align-center" aria-label="Anchor プロセッサ" href="#%e3%83%97%e3%83%ad%e3%82%bb%e3%83%83%e3%82%b5">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>名前&lt;/th>
+&lt;th>企業&lt;/th>
+&lt;th>命令セット&lt;/th>
+&lt;th>用途&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TPU&lt;/td>
+&lt;td>Google&lt;/td>
+&lt;td>独自?&lt;/td>
+&lt;td>ディープラーニング用のプロセッサ、GPUとの違いは計算精度を犠牲にしてワット当たりの演算量を増やしている。一般販売はなくクラウド上で使用できる&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TPU Edge&lt;/td>
+&lt;td>Google&lt;/td>
+&lt;td>独自?&lt;/td>
+&lt;td>ディープラーニング用のプロセッサ、こちらは推論のみに使える。こちらは一般販売あり。IoTをごりごり意識している&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Google Tensor&lt;/td>
+&lt;td>Google&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>スマートフォンPixel 6に搭載される予定のSoC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>M1&lt;/td>
+&lt;td>Apple&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Mac Bookなどに搭載されているSoC。「ワット当たりのCPU性能は世界最高」とうたっている。ゲームは苦手&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aシリーズ&lt;/td>
+&lt;td>Apple&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>iPhone、iPadなどで採用されているSoC。AMDもAシリーズCPUを販売していてややこしい、そちらは全く別物。M1チップがiPad proに採用されたためお株が奪われないか不安&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Graviton&lt;/td>
+&lt;td>Amazon&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>サーバー用プロセッサ。AWSで使用することができる。AWSで既存のプロセッサに比べて時間当たりのコストが安くなるらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Microsoft SQ2&lt;/td>
+&lt;td>Microsoft&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>ノートパソコンSurfaceに使用されたSoC。Qualcomm社のSnapdragonがベースになっているらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kirinシリーズ&lt;/td>
+&lt;td>Huawei(HiSilicon)&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Huaweiが設計しているSoc。米中貿易戦争でTSMCで製造できなくなったため&lt;a
+class="gblog-markdown__link"
+href="https://iphone-mania.jp/news-378707/"
+>武漢で製造する計画が進んでいるらしい&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kunpeng シリーズ&lt;/td>
+&lt;td>Huawei(HiSilicon)&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Huaweiが設計しているSoc。こちらはサーバー向け&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rockchip シリーズ&lt;/td>
+&lt;td>Rockchip Electronics&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>中国メーカーのSoC。小型用のものらしいがノートパソコンにも使われていた&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Snapdragon シリーズ&lt;/td>
+&lt;td>Qualcomm&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>有名なスマートフォン向けSoC、大きなシェアを握っている&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Helio シリーズ&lt;/td>
+&lt;td>MediaTek&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>こちらも有名なスマートフォン向けSoC、大きなシェアを握っている&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Nvidia Tegra&lt;/td>
+&lt;td>Nvidia&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Nvidiaが設計したSoC。GPUメーカーだけあってグラフィック性能が高いらしい。Nintendo Switchに採用された&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>A64FX&lt;/td>
+&lt;td>富士通&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>スーパーコンピュータ「富岳」に使われているプロセッサ。一つ前の世代の「京」は命令セットをSPARCにしていたためアプリケーションの互換性に苦しみ、今回はARMにしたらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Powerシリーズ&lt;/td>
+&lt;td>IBM&lt;/td>
+&lt;td>Power&lt;/td>
+&lt;td>ワークステーションなどで使われるプロセッサ。古参だが&lt;a
+class="gblog-markdown__link"
+href="https://www.ibm.com/blogs/systems/jp-ja/ibm-power-systems-announces-power10-processor/"
+>いまだに新しいプロセッサが出ている&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SiFive RISC-V Core IP&lt;/td>
+&lt;td>SiFive&lt;/td>
+&lt;td>RISC-V&lt;/td>
+&lt;td>これから来るだろうなと思っていたら案の定SiFiveはIntelに買収された。IPコアだけではなく評価ボードも提供しているらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rocket-Chip&lt;/td>
+&lt;td>カリフォルニア大学バークレイ校&lt;/td>
+&lt;td>RISC-V&lt;/td>
+&lt;td>RISC-VのIPコア。ScalaのDSLの半導体設計言語Chiselで記述されている&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Xuantie 910&lt;/td>
+&lt;td>Alibaba(Pingtouge Semiconductor)&lt;/td>
+&lt;td>RISC-V&lt;/td>
+&lt;td>中国EC大手のAlibabaが作ったRISC-Vプロセッサ。「最も早いRISC-Vベースのプロセッサ」とうたっている&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="おわりに">
+おわりに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#おわりに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor おわりに" href="#%e3%81%8a%e3%82%8f%e3%82%8a%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>IntelやAMDなどは話し始めるとおそらく一記事分作れてしまうので割愛。ほかの所にたくさん記事あるでしょうし、そちらをあたってください。&lt;br>
+NvidiaやAMDのGPUも割愛しています。&lt;br>
+こうしてみるとGAFAMも半導体専業ではないのに独自プロセッサを作っていますね。&lt;br>
+それにしても命令セットだと本当にARMが強い。&lt;/p></content><category scheme="https://blog.penguincabinet.com/categories/programming" term="programming" label="programming"/><category scheme="https://blog.penguincabinet.com/categories/cpu" term="cpu" label="cpu"/></entry><entry><title>Fyneのドラッグアンドドロップ実装進捗のまとめ</title><link href="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/</id><published>2022-02-14T22:41:52+09:00</published><updated>2022-02-14T22:41:52+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>この記事は&lt;a
+class="gblog-markdown__link"
+href="https://qiita.com/advent-calendar/2021/go"
+>2021年Goアドベントカレンダー18日目&lt;/a>の記事です。&lt;br>
+初めてのアドベントカレンダーの投稿で、ネタが思いつかずにひねり出したものなので、暖かい目で見てください&amp;hellip;&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="概要">
+概要
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#概要" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 概要" href="#%e6%a6%82%e8%a6%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://fyne.io/"
+>Fyne&lt;/a>はGoで書かれたウィジェットツールキットで、マルチプラットフォームで動作します。&lt;br>
+開発も結構活発です。&lt;br>
+が、&lt;strong>残念ながら記事を書いている現在ドラッグアンドドロップは実装されていません。&lt;/strong>&lt;br>
+僕もFyneでアプリケーションを書いていて結構困りました。&lt;br>
+そこでFyneのドラッグアンドドロップ機能の実装経緯についてまとめました。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="経緯">
+経緯
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#経緯" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 経緯" href="#%e7%b5%8c%e7%b7%af">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="2019年ごろissueが立てられる">
+2019年ごろIssueが立てられる
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2019年ごろissueが立てられる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2019年ごろIssueが立てられる" href="#2019%e5%b9%b4%e3%81%94%e3%82%8dissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-issue1.png"
+alt="img"
+/>
+&lt;a
+class="gblog-markdown__link"
+href="https://github.com/fyne-io/fyne/issues/142"
+>Add drag and drop support&lt;/a>&lt;br>
+ドラッグアンドドロップについての提案がなされています。&lt;br>
+相当ニーズあるようでたくさんコメントがついています。&lt;br>
+&lt;del>最後のほうもう聞くなみたいなこと言われてて面白い。&lt;/del>&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="2020年ごろにも同じようなissueが立てられる">
+2020年ごろにも同じようなIssueが立てられる
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2020年ごろにも同じようなissueが立てられる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2020年ごろにも同じようなIssueが立てられる" href="#2020%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%ab%e3%82%82%e5%90%8c%e3%81%98%e3%82%88%e3%81%86%e3%81%aaissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-issue2.png"
+alt="img"
+/>
+&lt;a
+class="gblog-markdown__link"
+href="https://github.com/fyne-io/fyne/issues/896"
+>Drag &amp;amp; Drop&lt;/a>&lt;br>
+開発者の方に先ほどのIssueに誘導されていますね&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="2021年ごろにprが開かれる">
+2021年ごろにPRが開かれる
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2021年ごろにprが開かれる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2021年ごろにPRが開かれる" href="#2021%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%abpr%e3%81%8c%e9%96%8b%e3%81%8b%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-PR1.png"
+alt="img"
+/>
+&lt;a
+class="gblog-markdown__link"
+href="https://github.com/fyne-io/proposals/pull/5"
+>Drag-adn-Drop proposal&lt;/a>&lt;br>
+記事を書いている現在でもオープンのままです。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="公式ブログの次の大きな実装に載る">
+公式ブログの「次の大きな実装」に載る
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#公式ブログの次の大きな実装に載る" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 公式ブログの「次の大きな実装」に載る" href="#%e5%85%ac%e5%bc%8f%e3%83%96%e3%83%ad%e3%82%b0%e3%81%ae%e6%ac%a1%e3%81%ae%e5%a4%a7%e3%81%8d%e3%81%aa%e5%ae%9f%e8%a3%85%e3%81%ab%e8%bc%89%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-blog1.png"
+alt="img"
+/>&lt;/p>
+&lt;p>読んだ感じだとドラッグアンドドロップ機能がもうすぐ実装されるようですね!!&lt;/p></content><category scheme="https://blog.penguincabinet.com/categories/programming" term="programming" label="programming"/><category scheme="https://blog.penguincabinet.com/categories/golang" term="golang" label="golang"/></entry><entry><title>KaggleのJupyter NotebookでLogisticRegressionをすると吐くエラーの対策</title><link href="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/</id><published>2022-02-14T21:15:34+09:00</published><updated>2022-02-14T21:15:34+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="エラーの概要">
+エラーの概要
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#エラーの概要" class="gblog-post__anchor clip flex align-center" aria-label="Anchor エラーの概要" href="#%e3%82%a8%e3%83%a9%e3%83%bc%e3%81%ae%e6%a6%82%e8%a6%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>多くのサイトで乗っているような手順に従って&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.linear_model&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">LogisticRegression&lt;/span>
+&lt;span class="n">model&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">LogisticRegression&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>として、KaggleのJupyter Notebookでロジスティック回帰すると&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-shell" data-lang="shell">AttributeError: &lt;span class="s1">&amp;#39;str&amp;#39;&lt;/span> object has no attribute &lt;span class="s1">&amp;#39;decode&amp;#39;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>エラーを吐きます&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="対策">
+対策
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#対策" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 対策" href="#%e5%af%be%e7%ad%96">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="kn">from&lt;/span> &lt;span class="nn">sklearn.linear_model&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">LogisticRegression&lt;/span>
+&lt;span class="n">model&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">LogisticRegression&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">solver&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;liblinear&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>こうすればエラーが出なくなります&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="参考">
+参考
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Kaggle-Jupyter-LogisticRegression/#参考" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 参考" href="#%e5%8f%82%e8%80%83">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://www.kaggle.com/general/269699"
+>Kaggleのディスカッションページ&lt;/a>&lt;/p></content><category scheme="https://blog.penguincabinet.com/categories/programming" term="programming" label="programming"/><category scheme="https://blog.penguincabinet.com/categories/kaggle" term="kaggle" label="kaggle"/></entry><entry><title>高性能なプランでのVPSの比較</title><link href="https://blog.penguincabinet.com/posts/VPS-compere/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/VPS-compere/</id><published>2022-02-13T17:14:49+09:00</published><updated>2022-02-13T17:14:49+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>格安VPSサービスと調べると&lt;a
+class="gblog-markdown__link"
+href="https://www.vultr.com/"
+>Vultr&lt;/a>や&lt;a
+class="gblog-markdown__link"
+href="https://web.arena.ne.jp/"
+>WebARENA&lt;/a>などがよく紹介されますが、とにかくコア数が欲しい場合の高性能なプラン(16コアくらい)だとそこまでコスパ良くないのでは?と思い、調べてみました。&lt;br>
+勘違いや変更があるかもしれないので、実際に使う場合は公式サイトを確認してください。&lt;br>
+とにかくコア数が欲しい場合のみに注目しているので、RAM、ネットワーク通信料などはできる限り最小にしているのと、サービスによって同じコア数でも性能が異なる場合があるのでご注意ください。&lt;br>
+ドル建ての場合は1ドル=115円で計算。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="16コアの場合">
+16コアの場合
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#16コアの場合" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 16コアの場合" href="#16%e3%82%b3%e3%82%a2%e3%81%ae%e5%a0%b4%e5%90%88">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>サービス名&lt;/th>
+&lt;th>月料金&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Vultr&lt;/td>
+&lt;td>36800円(320ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AWS(RAM、SSDでストレージ量はVultrと同じ)&lt;/td>
+&lt;td>47150円(410ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AWS(RAM、HDDでストレージ量はVultrと同じ)&lt;/td>
+&lt;td>38985円(339ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AWS(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>21620円(188ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Linode&lt;/td>
+&lt;td>27600円(240ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Azure(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>73025円(635ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>GCP(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>44965円(391ドル)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IBM Cloud(うるせえ、俺はCPUコア数だけ欲しいんだよって方)&lt;/td>
+&lt;td>43700円(380ドル)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="まとめ">
+まとめ
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/VPS-compere/#まとめ" class="gblog-post__anchor clip flex align-center" aria-label="Anchor まとめ" href="#%e3%81%be%e3%81%a8%e3%82%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>AWSのHDD30GBのストレージにして、やるのが一番コスパがいいようですね。&lt;br>
+ただし、ネットワークは別料金ですので、使う方は注意が必要です。&lt;br>
+低価格帯だとそんなにコスパが悪くないVultrですけど、とにかくコア数が欲しいみたいなプランだとそんなにコスパよくない&amp;hellip;&lt;br>
+Linodeが地味にコスパすごいです。ネットワークやディスクこみこみでこれなので。&lt;/p></content><category scheme="https://blog.penguincabinet.com/categories/programming" term="programming" label="programming"/><category scheme="https://blog.penguincabinet.com/categories/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9" term="%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9" label="インフラ"/></entry></feed>

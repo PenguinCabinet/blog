@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>Cpu on 愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/categories/cpu/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/categories/cpu/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-03-11T13:35:09+00:00</updated><id>https://blog.penguincabinet.com/categories/cpu/</id><entry><title>GAFAMやその他企業の独自プロセッサやSoCのまとめ</title><link href="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/</id><published>2022-03-07T01:12:25+09:00</published><updated>2022-03-07T01:12:25+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>ARMはARM社にロイヤリティを支払えば独自のプロセッサを製作することや既存のIPを使用することができます。&lt;br>
+ほかにも近年OSSでロイヤリティフリーのRISC-Vも台頭してきています。&lt;br>
+そこで今回はそれらのプロセッサやSoCについて調べてみました。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="プロセッサ">
+プロセッサ
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#プロセッサ" class="gblog-post__anchor clip flex align-center" aria-label="Anchor プロセッサ" href="#%e3%83%97%e3%83%ad%e3%82%bb%e3%83%83%e3%82%b5">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>名前&lt;/th>
+&lt;th>企業&lt;/th>
+&lt;th>命令セット&lt;/th>
+&lt;th>用途&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TPU&lt;/td>
+&lt;td>Google&lt;/td>
+&lt;td>独自?&lt;/td>
+&lt;td>ディープラーニング用のプロセッサ、GPUとの違いは計算精度を犠牲にしてワット当たりの演算量を増やしている。一般販売はなくクラウド上で使用できる&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TPU Edge&lt;/td>
+&lt;td>Google&lt;/td>
+&lt;td>独自?&lt;/td>
+&lt;td>ディープラーニング用のプロセッサ、こちらは推論のみに使える。こちらは一般販売あり。IoTをごりごり意識している&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Google Tensor&lt;/td>
+&lt;td>Google&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>スマートフォンPixel 6に搭載される予定のSoC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>M1&lt;/td>
+&lt;td>Apple&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Mac Bookなどに搭載されているSoC。「ワット当たりのCPU性能は世界最高」とうたっている。ゲームは苦手&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aシリーズ&lt;/td>
+&lt;td>Apple&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>iPhone、iPadなどで採用されているSoC。AMDもAシリーズCPUを販売していてややこしい、そちらは全く別物。M1チップがiPad proに採用されたためお株が奪われないか不安&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Graviton&lt;/td>
+&lt;td>Amazon&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>サーバー用プロセッサ。AWSで使用することができる。AWSで既存のプロセッサに比べて時間当たりのコストが安くなるらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Microsoft SQ2&lt;/td>
+&lt;td>Microsoft&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>ノートパソコンSurfaceに使用されたSoC。Qualcomm社のSnapdragonがベースになっているらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kirinシリーズ&lt;/td>
+&lt;td>Huawei(HiSilicon)&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Huaweiが設計しているSoc。米中貿易戦争でTSMCで製造できなくなったため&lt;a
+class="gblog-markdown__link"
+href="https://iphone-mania.jp/news-378707/"
+>武漢で製造する計画が進んでいるらしい&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Kunpeng シリーズ&lt;/td>
+&lt;td>Huawei(HiSilicon)&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Huaweiが設計しているSoc。こちらはサーバー向け&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rockchip シリーズ&lt;/td>
+&lt;td>Rockchip Electronics&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>中国メーカーのSoC。小型用のものらしいがノートパソコンにも使われていた&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Snapdragon シリーズ&lt;/td>
+&lt;td>Qualcomm&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>有名なスマートフォン向けSoC、大きなシェアを握っている&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Helio シリーズ&lt;/td>
+&lt;td>MediaTek&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>こちらも有名なスマートフォン向けSoC、大きなシェアを握っている&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Nvidia Tegra&lt;/td>
+&lt;td>Nvidia&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>Nvidiaが設計したSoC。GPUメーカーだけあってグラフィック性能が高いらしい。Nintendo Switchに採用された&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>A64FX&lt;/td>
+&lt;td>富士通&lt;/td>
+&lt;td>ARM&lt;/td>
+&lt;td>スーパーコンピュータ「富岳」に使われているプロセッサ。一つ前の世代の「京」は命令セットをSPARCにしていたためアプリケーションの互換性に苦しみ、今回はARMにしたらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Powerシリーズ&lt;/td>
+&lt;td>IBM&lt;/td>
+&lt;td>Power&lt;/td>
+&lt;td>ワークステーションなどで使われるプロセッサ。古参だが&lt;a
+class="gblog-markdown__link"
+href="https://www.ibm.com/blogs/systems/jp-ja/ibm-power-systems-announces-power10-processor/"
+>いまだに新しいプロセッサが出ている&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SiFive RISC-V Core IP&lt;/td>
+&lt;td>SiFive&lt;/td>
+&lt;td>RISC-V&lt;/td>
+&lt;td>これから来るだろうなと思っていたら案の定SiFiveはIntelに買収された。IPコアだけではなく評価ボードも提供しているらしい&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Rocket-Chip&lt;/td>
+&lt;td>カリフォルニア大学バークレイ校&lt;/td>
+&lt;td>RISC-V&lt;/td>
+&lt;td>RISC-VのIPコア。ScalaのDSLの半導体設計言語Chiselで記述されている&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Xuantie 910&lt;/td>
+&lt;td>Alibaba(Pingtouge Semiconductor)&lt;/td>
+&lt;td>RISC-V&lt;/td>
+&lt;td>中国EC大手のAlibabaが作ったRISC-Vプロセッサ。「最も早いRISC-Vベースのプロセッサ」とうたっている&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="おわりに">
+おわりに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/ARM-cpu-list-made-company/#おわりに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor おわりに" href="#%e3%81%8a%e3%82%8f%e3%82%8a%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>IntelやAMDなどは話し始めるとおそらく一記事分作れてしまうので割愛。ほかの所にたくさん記事あるでしょうし、そちらをあたってください。&lt;br>
+NvidiaやAMDのGPUも割愛しています。&lt;br>
+こうしてみるとGAFAMも半導体専業ではないのに独自プロセッサを作っていますね。&lt;br>
+それにしても命令セットだと本当にARMが強い。&lt;/p></content><category scheme="https://blog.penguincabinet.com/categories/programming" term="programming" label="programming"/><category scheme="https://blog.penguincabinet.com/categories/cpu" term="cpu" label="cpu"/></entry></feed>

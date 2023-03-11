@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator><title>Golang on 愛を感じるペンギン内閣</title><link href="https://blog.penguincabinet.com/categories/golang/" rel="alternate" type="text/html" title="HTML"/><link href="https://blog.penguincabinet.com/categories/golang/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2023-03-11T13:35:09+00:00</updated><id>https://blog.penguincabinet.com/categories/golang/</id><entry><title>Fyneのドラッグアンドドロップ実装進捗のまとめ</title><link href="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/" rel="alternate" type="text/html" hreflang="en"/><id>https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/</id><published>2022-02-14T22:41:52+09:00</published><updated>2022-02-14T22:41:52+09:00</updated><content type="html">
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="はじめに">
+はじめに
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#はじめに" class="gblog-post__anchor clip flex align-center" aria-label="Anchor はじめに" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>この記事は&lt;a
+class="gblog-markdown__link"
+href="https://qiita.com/advent-calendar/2021/go"
+>2021年Goアドベントカレンダー18日目&lt;/a>の記事です。&lt;br>
+初めてのアドベントカレンダーの投稿で、ネタが思いつかずにひねり出したものなので、暖かい目で見てください&amp;hellip;&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="概要">
+概要
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#概要" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 概要" href="#%e6%a6%82%e8%a6%81">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;p>&lt;a
+class="gblog-markdown__link"
+href="https://fyne.io/"
+>Fyne&lt;/a>はGoで書かれたウィジェットツールキットで、マルチプラットフォームで動作します。&lt;br>
+開発も結構活発です。&lt;br>
+が、&lt;strong>残念ながら記事を書いている現在ドラッグアンドドロップは実装されていません。&lt;/strong>&lt;br>
+僕もFyneでアプリケーションを書いていて結構困りました。&lt;br>
+そこでFyneのドラッグアンドドロップ機能の実装経緯についてまとめました。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h1 id="経緯">
+経緯
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#経緯" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 経緯" href="#%e7%b5%8c%e7%b7%af">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h1>
+&lt;/div>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="2019年ごろissueが立てられる">
+2019年ごろIssueが立てられる
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2019年ごろissueが立てられる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2019年ごろIssueが立てられる" href="#2019%e5%b9%b4%e3%81%94%e3%82%8dissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-issue1.png"
+alt="img"
+/>
+&lt;a
+class="gblog-markdown__link"
+href="https://github.com/fyne-io/fyne/issues/142"
+>Add drag and drop support&lt;/a>&lt;br>
+ドラッグアンドドロップについての提案がなされています。&lt;br>
+相当ニーズあるようでたくさんコメントがついています。&lt;br>
+&lt;del>最後のほうもう聞くなみたいなこと言われてて面白い。&lt;/del>&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="2020年ごろにも同じようなissueが立てられる">
+2020年ごろにも同じようなIssueが立てられる
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2020年ごろにも同じようなissueが立てられる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2020年ごろにも同じようなIssueが立てられる" href="#2020%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%ab%e3%82%82%e5%90%8c%e3%81%98%e3%82%88%e3%81%86%e3%81%aaissue%e3%81%8c%e7%ab%8b%e3%81%a6%e3%82%89%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-issue2.png"
+alt="img"
+/>
+&lt;a
+class="gblog-markdown__link"
+href="https://github.com/fyne-io/fyne/issues/896"
+>Drag &amp;amp; Drop&lt;/a>&lt;br>
+開発者の方に先ほどのIssueに誘導されていますね&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="2021年ごろにprが開かれる">
+2021年ごろにPRが開かれる
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#2021年ごろにprが開かれる" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 2021年ごろにPRが開かれる" href="#2021%e5%b9%b4%e3%81%94%e3%82%8d%e3%81%abpr%e3%81%8c%e9%96%8b%e3%81%8b%e3%82%8c%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-PR1.png"
+alt="img"
+/>
+&lt;a
+class="gblog-markdown__link"
+href="https://github.com/fyne-io/proposals/pull/5"
+>Drag-adn-Drop proposal&lt;/a>&lt;br>
+記事を書いている現在でもオープンのままです。&lt;/p>
+&lt;div class="gblog-post__anchorwrap">
+&lt;h2 id="公式ブログの次の大きな実装に載る">
+公式ブログの「次の大きな実装」に載る
+&lt;a data-clipboard-text="https://blog.penguincabinet.com/posts/Fyne-drag-and-drop/#公式ブログの次の大きな実装に載る" class="gblog-post__anchor clip flex align-center" aria-label="Anchor 公式ブログの「次の大きな実装」に載る" href="#%e5%85%ac%e5%bc%8f%e3%83%96%e3%83%ad%e3%82%b0%e3%81%ae%e6%ac%a1%e3%81%ae%e5%a4%a7%e3%81%8d%e3%81%aa%e5%ae%9f%e8%a3%85%e3%81%ab%e8%bc%89%e3%82%8b">
+&lt;svg class="gblog-icon gblog_link">&lt;use xlink:href="#gblog_link">&lt;/use>&lt;/svg>
+&lt;/a>
+&lt;/h2>
+&lt;/div>
+&lt;p>&lt;img
+src="/images/Fyne-drag-and-drop-blog1.png"
+alt="img"
+/>&lt;/p>
+&lt;p>読んだ感じだとドラッグアンドドロップ機能がもうすぐ実装されるようですね!!&lt;/p></content><category scheme="https://blog.penguincabinet.com/categories/programming" term="programming" label="programming"/><category scheme="https://blog.penguincabinet.com/categories/golang" term="golang" label="golang"/></entry></feed>
