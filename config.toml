@@ -22,6 +22,7 @@ summaryLength = 140
 [taxonomies]
   author = "PenguinCabinet"
   tag = "tags"
+  category = "categories"
 
 [mediaTypes]
   [mediaTypes."application/atom+xml"]
